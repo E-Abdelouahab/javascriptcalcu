@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="js.css">
+    <title>Document</title>
+
+</head>
+<body>
+        <p id="para"></p>
+        <input id="you" type="text"  value="Entrer votre Nom" onfocus=this.value=''>
+    
+        <button class="gg" id="gg" onclick="bio()">ENTRER</button>
+        
+        <script>
+                function bio(){
+                    var text = document.getElementById("you").value;
+                    var text1 = text.replace(" ","").replace(" ","").replace(" ","").replace(" ","").replace(" ","").replace(" ","").length;
+                    document.getElementById("para").innerHTML = text1;
+        }
+           </script>
+</body>
+</html>
